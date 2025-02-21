@@ -1,0 +1,19 @@
+
+This document provides an overview of the five folders used in this project, explaining their purpose.
+
+DataBases folder:
+Contains all the databases used in this project, including the main and root source of data, the database "online_retail_II", available on "https://archive.ics.uci.edu/ml/datasets/online+retail+II". Contains also the databases created during the project development.
+
+Notebooks folder:
+Contains the google colab notebooks created during the development of this project. The best way to see each step of this project, every transformation, visualization, etc. Through them you can see what i was thinking throughout the entire development of this project.
+For more information about each notebook, please check "Notebooks Explanations" file.
+
+Notebooks in py folder:
+Contains the google colab notebooks in .py format. A easy way to see the code contained in the google colab notebooks. Recommended if you desire to see the code in a text editor or other IDEs that does not support .ipynb format.
+
+Power BI folder:
+Contains a .pbix file with analyses and visualizations of the cleaned_data_online_retail_II database in the software Microsoft Power BI Desktop.
+
+Python Scripts folder:
+Contains Python scripts based on functions that performs the same tasks as the google colab notebooks. Can be harder to understand, but performs more automatically given that you only need to run the main funcion. If you just want to run the process, i recommend you to use these scipts. Now if you want to see the step by step and understand more what is being done, i would recommend you to use the google colab notebooks within the folder "Notebooks".
+

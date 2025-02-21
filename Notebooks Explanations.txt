@@ -1,0 +1,51 @@
+Notebooks Explanations
+
+This document provides an overview of the five notebooks/scripts used in this project, explaining their purpose and functionality.
+
+1. Data Cleaning (Data_Cleaning_Online_Retail_II)
+
+Loads the Online Retail II dataset.
+
+Cleans missing values, removes invalid prices, and filters unreliable data.
+
+Saves the cleaned dataset as cleaned_data_online_retail_II.csv.
+
+2. Co-Occurrence Analysis (Create_Product_Correlation_Table)
+
+Creates a basket matrix (products per invoice).
+
+Computes a co-occurrence matrix (how often products are purchased together).
+
+Normalizes co-occurrence values to measure product relationships.
+
+Saves the result as co_basket.csv.
+
+3. Semantic Similarity (Calculate_Semantics_X_Correlation)
+
+Uses Sentence Transformers to compute semantic similarity between product descriptions.
+
+Identifies pairs of products with high correlation but low semantic similarity.
+
+Saves the result as dataFrameWithDescriptionsAndCorrelation.csv.
+
+4. Statistical Significance (Statistical_Significance_Test)
+
+Uses the Chi-Square test to filter product pairs that are statistically significant.
+
+Ensures relationships are not due to random chance.
+
+Saves the result as significant_pairs.csv.
+
+5. Query and Analysis (Queries_And_Analysis)
+
+Extracts key business insights, such as:
+
+Revenue per country/customer/product.
+
+Most frequently purchased products.
+
+Revenue trends over time.
+
+Generates visualizations for revenue trends and top-selling products.
+
+Each script contributes to understanding product relationships, customer behavior, and sales trends using statistical methods and machine learning techniques.
