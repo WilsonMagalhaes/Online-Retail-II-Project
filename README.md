@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Online-Retail-II-Project
 =======
 # Project Overview
@@ -63,4 +63,4 @@ This project analyzes customer purchasing behavior using the Online Retail II da
 
 ---
 This project leverages statistical methods and machine learning techniques to uncover valuable insights from retail transaction data.
->>>>>>> c85eb4d (Initial commit)
+
